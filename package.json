@@ -1,0 +1,25 @@
+{
+  "name": "wasm-utils",
+  "version": "0.0.1",
+  "description": "Collection of JS WASM utility modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ballercat/wasm-utils.git"
+  },
+  "keywords": [
+    "wasm",
+    "WebAssembly",
+    "JavaScript",
+    "JS"
+  ],
+  "author": "Arthur Buldauskas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ballercat/wasm-utils/issues"
+  },
+  "homepage": "https://github.com/ballercat/wasm-utils#readme"
+}
