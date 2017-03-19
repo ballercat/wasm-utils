@@ -6,6 +6,5 @@ A tiny modular collection of JavaScript Utils for use with WASM Modules.
 
 * `logger` - Logs strings from WASM  code.
 * `stack` - Stack
-* `heap` - WIP. Not a real heap structure, but enough for small demos.
-* `ccall` - WIP.
+* `heap` - JavaScript implementation of malloc, free to pass into wasm.
 
