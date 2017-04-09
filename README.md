@@ -23,7 +23,7 @@ The types module provides a method of mapping a JavaScript object to a section o
 
     Assuming you already have a wasm module setup:
 
-    ```
+    ```javascript
     // let's say you have a wasm function which creates a new pointer to C struct
     // This struct contains { float x; float y; float z; }
     const ptr = wasmExports.createVec3(-1, -1, -1);
@@ -59,7 +59,7 @@ The types module provides a method of mapping a JavaScript object to a section o
     ```
     *structs can be nested*:
 
-    ```
+    ```javascript
     const objectStruct = types.define({
       value: types.u32, // unsigned 32 bit integer
       position: vec3Struct
